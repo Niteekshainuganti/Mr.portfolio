@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contacts</title>
+    <style>
+        body{
+            background-color: rgba(90, 87, 87, 0.619);
+        }
+
+        .head{
+           background-color:rgba(83, 82, 82, 0.767);
+           height:70px;
+           font-weight:bold;
+           font-size:40px;
+           margin-top:10px;
+           display:flex; 
+           justify-content:center;
+           align-items: center;
+           font-family:arial;
+        }
+
+        .nav {
+           display:flex;
+           background-color: #dcdcdc;
+           gap: 10px;
+        }
+
+        .nav a {
+           display: block;
+           padding: 12px 25px;
+           text-decoration:none;
+           color: black;
+           font-size: 18px;
+        }
+
+        .nav a:hover {
+           background-color: gray;
+           color: white;
+        }
+        
+        .container{
+            background-color:#ddd;
+            height:500px;
+            width:80%;
+            margin: 20px auto ;
+            display:flex;
+            justify-content: center;
+         
+        }
+
+        fieldset {
+            width: 400px;          
+            height: 280px;         
+            margin-top: 50px;     
+            padding: 20px;
+            border: 2px solid gray;
+            background-color: #eee;
+        }
+
+        legend {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+            .footer{
+            background-color:white;
+            color:black;
+            text-align: center;
+            height:40px;
+            font-size:25px;
+            display:flex; 
+            justify-content: center;
+            align-items: center;
+           
+        }
+        
+
+    </style>
+</head>
+<body>
+      <nav class="nav">
+        <a href="My_Portfolio.html">Home</a>
+        <a href="skills.html">skills</a>
+        <a href="projects.html">projects</a>
+        <a href="contacts.html">contacts</a>
+       </nav>
+
+     <header class="head">Contact Me</header>
+     <div class="container">
+     <form>
+        <fieldset>
+            <legend>Get in Touch</legend>
+            <label for="Name">Name:</label><br>
+            <input type="text" id="Name" name="Name"/><br><br>
+            <label for="Email">Email:</label><br>
+            <input type="text" id="Email" name="Email"/><br><br>
+            Message:<br>
+            <textarea rows="7" cols="30"></textarea>
+        </fieldset>
+             <h2>Email:abc@gmail.com</h2>
+             <h2><Phone class="NO:9966XXXXXX"></Phone></h2>
+     </form>  
+     </div>
+
+      <footer class="footer">
+              <p>&copy 2026 My Portfolio</p>
+      </footer>
+</body>
+</html>
